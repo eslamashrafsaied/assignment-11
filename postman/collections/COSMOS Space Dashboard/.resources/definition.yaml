@@ -1,0 +1,14 @@
+$kind: collection
+name: COSMOS Space Dashboard
+description: |-
+  API collection for the COSMOS Space Dashboard project.
+  Covers the two external APIs used by the dashboard:
+  1. NASA Astronomy Picture of the Day (APOD)
+  2. The Space Devs Launch Library – Upcoming Launches
+variables:
+  - key: nasa_api_key
+    value: 'WrqQKPkBzw7RLdCzrdzjGWmmJfNWPfdfTGzfbMMq'
+    description: NASA API key used to authenticate requests to api.nasa.gov
+  - key: spacedevs_base_url
+    value: 'https://lldev.thespacedevs.com/2.3.0'
+    description: Base URL for The Space Devs Launch Library API (dev/staging endpoint)
